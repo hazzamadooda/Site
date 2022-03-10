@@ -26,7 +26,7 @@ body {
   }
 
 .slider-wrapper {
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     color: black;
     display: flex;
@@ -41,15 +41,19 @@ body {
   .slider-text1 {
     animation: slide 5s linear infinite;
     background: black;
+    font-size: 30px;
   }
   .slider-text2 {
     background: black;
+    font-size: 30px;
   }
   .slider-text3 {
     background: black;
+    font-size: 30px;
   }
   .slider-text4 {
     background: black;
+    font-size: 30px;
   }
 
   .slider div {
@@ -95,7 +99,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 200px;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
 }
 .Socials{

@@ -41,19 +41,19 @@ body {
   .slider-text1 {
     animation: slide 5s linear infinite;
     background: black;
-    font-size: 30px;
+    font-size: 40px;
   }
   .slider-text2 {
     background: black;
-    font-size: 30px;
+    font-size: 40px;
   }
   .slider-text3 {
     background: black;
-    font-size: 30px;
+    font-size: 40px;
   }
   .slider-text4 {
     background: black;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .slider div {
@@ -115,13 +115,60 @@ body {
 .Socials .Images img{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .Socials .Images li{
     display: block;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Socials .Images .Instagram:hover{
+  filter:invert(1);
+}
+.Socials .Images .Github:hover{
+  filter:invert(1);
+}
+.Socials .Images .Discord:hover{
+  filter:invert(1);
+}
+.Socials .Images .Twitter:hover{
+  filter:invert(1);
+}
+
+
+@media only screen and (max-width: 500px) {
+  .Introduction .Name{
+    font-size: 30px;
+  }
+  .slider-wrapper{
+    font-size: 15px;
+  }
+  .slider-text1{
+    font-size: 25px;
+  }
+  .slider-text2{
+    font-size: 25px;
+  }
+  .slider-text3{
+    font-size: 25px;
+  }
+  .slider-text4{
+    font-size: 25px;
+  }
+  .Socials .Images img{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+  .Socials .Images li{
+    font-size: 15px;
     margin-left: 30px;
     margin-right: 30px;
-    font-family: 'Roboto', sans-serif;
+  }
 }
